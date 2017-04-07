@@ -80,3 +80,7 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libbinder_shim
+
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
