@@ -7,7 +7,7 @@
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Inherit from nubia sdm845-common
--include device/nubia/sdm845-common/BoardConfigCommon.mk
+include device/nubia/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/nubia/nx606j
 
@@ -41,4 +41,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
--include vendor/nubia/nx606j/BoardConfigVendor.mk
+include vendor/nubia/nx606j/BoardConfigVendor.mk
