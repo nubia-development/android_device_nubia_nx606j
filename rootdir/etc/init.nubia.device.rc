@@ -42,3 +42,8 @@ on property:sys.tp.wakeup=*
 
 on property:sys.tp.palmsleep=*
     write /sys/class/tpnode/tpnode/synaptics/palm_sleep ${sys.tp.palmsleep}
+
+service goodix_script /vendor/bin/init.goodix.sh
+    class late_start
+    user root
+    oneshot
