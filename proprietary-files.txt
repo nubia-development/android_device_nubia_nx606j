@@ -225,7 +225,7 @@ vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/hals.conf
 
 # Sensors - ultrasound
-vendor/bin/ultrasonicd
+vendor/bin/ultrasonicd|2d4bb1add1479e99b06cea72405f9a342dbffa9c
 vendor/etc/init/ultrasonicd.rc
 vendor/ultrasonic/mnist.dlc
 vendor/lib64/libultra-snpe.so
