@@ -1,0 +1,2 @@
+# NFC
+/dev/sec-nfc              u:object_r:sec_device:s0
