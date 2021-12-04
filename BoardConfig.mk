@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Inherit from nubia sdm845-common
 -include device/nubia/sdm845-common/BoardConfigCommon.mk
 
