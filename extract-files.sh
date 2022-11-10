@@ -13,6 +13,9 @@ function blob_fixup() {
     vendor/lib64/hw/audio.primary.sdm845.so)
         patchelf --replace-needed "libcutils.so" "libprocessgroup.so" "${2}"
         ;;
+    vendor/lib64/libgoodixfingerprintd_binder.so)
+        patchelf --add-needed "libbinder_shim.so" "${2}"
+        ;;
     esac
 }
 
