@@ -1,2 +1,5 @@
 # NFC
 /dev/sec-nfc              u:object_r:sec_device:s0
+
+# Touchscreen
+/sys/class/tpnode/tpnode/synaptics/wake_gesture 		 u:object_r:sysfs_sectouch:s0
