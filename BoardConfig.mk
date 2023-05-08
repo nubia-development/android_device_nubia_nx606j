@@ -20,6 +20,9 @@ TARGET_OTA_ASSERT_DEVICE := nx606j,NX606J
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_nx606j_defconfig
 
