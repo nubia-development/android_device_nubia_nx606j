@@ -15,6 +15,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Assert
 TARGET_OTA_ASSERT_DEVICE := nx606j,NX606J
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_nx606j_defconfig
 
