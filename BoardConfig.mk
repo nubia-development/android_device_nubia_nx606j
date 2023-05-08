@@ -15,5 +15,8 @@ TARGET_OTA_ASSERT_DEVICE := nx606j,NX606J
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_nx606j_defconfig
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # Inherit from the proprietary version
 -include vendor/nubia/nx606j/BoardConfigVendor.mk
