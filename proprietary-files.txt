@@ -224,7 +224,7 @@ vendor/lib64/libkeymasterutils.so
 
 # NFC
 vendor/etc/sec_s3nrn81_rfreg.bin
-vendor/lib64/hw/nfc_nci.sec.so
+vendor/lib64/hw/nfc_nci.sec.so:vendor/lib64/hw/nfc_nci.sdm845.so
 vendor/firmware/sec_s3nrn81_firmware.bin
 
 # QDCM calibration data
