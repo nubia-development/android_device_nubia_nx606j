@@ -29,4 +29,5 @@ key 114   VOLUME_DOWN
 key 102   HOME
 key 528   FOCUS
 key 766   CAMERA
-key 216   KEY_SMART_VOICE
+# Use nubia smart key to wake up Google Assistant
+key 216   VOICE_ASSIST
