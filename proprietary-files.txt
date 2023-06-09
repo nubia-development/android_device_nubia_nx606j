@@ -204,23 +204,23 @@ vendor/firmware/a630_zap.b02
 vendor/firmware/a630_zap.elf
 vendor/firmware/a630_zap.mdt
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from NX616J PKQ1.180929.001
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|df090c81900daa0365bc3648e18aaa5dfbc22556
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|fb518f91375caed8605cfafd555b72d4460c138a
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|6d5accb639ed7e3ae857998c85cff1e99913297d
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
+# Keymaster - from NX616J PKQ1.180929.001
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|e9f24057e575a4fff2d3b35b032519673e5ee60a
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|b0b490714a9865f54b4554e0f5e2dcc8176c66db
+vendor/lib/libkeymasterdeviceutils.so|8096870353fb6f63cca8113466e6d9498f96dae6
+vendor/lib/libkeymasterprovision.so|e2c1684fb4e523b052e5f250f1d817e0064aab8d
+vendor/lib/libkeymasterutils.so|3945e4d160c2aaf2d4f80b86ac889d4c3bce46f1
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|d925ac739bd441dc091d2e20945f2c1306b0fc2e
+vendor/lib64/libkeymasterdeviceutils.so|3d896095a70affedc9d7b8efc8a4e8c98da7f080
+vendor/lib64/libkeymasterprovision.so|95c94bf286b56b9ae5667fa51955fba8e3545c63
+vendor/lib64/libkeymasterutils.so|9908272105cd45e8964f0191c849de4e6973f994
 
 # NFC
 vendor/etc/sec_s3nrn81_rfreg.bin
