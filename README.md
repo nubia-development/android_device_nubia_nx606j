@@ -19,7 +19,8 @@ Shipped Android Version | 8.1 with nubia UI 6
 Storage | 64/128 GB
 Battery | Non-removable Li-Po 3450 mAh battery
 Display | 1080 x 2160 pixels, 18:9 ratio, 5.99 inches, IPS LCD (~403 ppi density)
-Back camera  | 24 MP & 16 MP, f/1.6, dual pixel PDAF, OIS
+Back camera (main) | Sony IMX 499, 16 MP, f/1.6, dual pixel PDAF, OIS
+Back camera (aux) | 24 MP, f/1.6
 Front camera | 8 MP, f/2.0, HDR
 
 ## Device picture
