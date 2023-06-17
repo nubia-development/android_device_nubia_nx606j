@@ -1,0 +1,19 @@
+type ultrasonicd, domain;
+type ultrasonicd_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(ultrasonicd)
+net_domain(ultrasonicd)
+
+allow ultrasonicd sysfs_kgsl:file { read write open getattr };
+allow ultrasonicd vndbinder_device:chr_file { read write open ioctl };
+allow ultrasonicd ultra_device:chr_file { open read write };
+allow ultrasonicd sysfs_proximity_sensor:dir { search };
+allow ultrasonicd sysfs_proximity_sensor:file { read write open ioctl };
+allow ultrasonicd gpu_device:chr_file { read write open ioctl };
+allow ultrasonicd gpu_device:file { read write open ioctl };
+allow ultrasonicd ion_device:chr_file { read write open ioctl };
+allow ultrasonicd mnt_vendor_file:dir { search };
+
+set_prop(ultrasonicd, vendor_audio_prop)
+
+wakelock_use(ultrasonicd)

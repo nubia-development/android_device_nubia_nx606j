@@ -1,3 +1,7 @@
+# Audio - ultrasound
+/dev/ultrasonic0                              u:object_r:ultra_device:s0
+/vendor/bin/ultrasonicd                       u:object_r:ultrasonicd_exec:s0
+
 # NFC
 /dev/sec-nfc              u:object_r:sec_device:s0
 
