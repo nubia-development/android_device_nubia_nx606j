@@ -224,6 +224,16 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/hals.conf
 
+# Sensors - ultrasound
+vendor/bin/ultrasonicd
+vendor/etc/init/ultrasonicd.rc
+vendor/ultrasonic/mnist.dlc
+vendor/lib64/libultra-snpe.so
+vendor/lib64/libSNPE.so
+vendor/lib64/libsymphony-cpu.so
+vendor/lib64/libsymphonypower.so
+vendor/lib64/libgnustl_shared.so
+
 # Thermal engine
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
