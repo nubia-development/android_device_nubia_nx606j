@@ -1,7 +1,7 @@
 # Unpinned blobs from NX606-user 8.1.0 OPM1.171019.026 eng.nubia.20200617.000901 release-keys
 
 # Audio
-vendor/lib64/hw/audio.primary.sdm845.so|46724d73ddcfafaf8df44a733782d258b20a1d3c
+vendor/lib64/hw/audio.primary.sdm845.so|84598f9aa23d4725dd959ef588dbd7d5cda442bb
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbrtac.so
 vendor/lib64/libadiertac.so
@@ -11,7 +11,7 @@ vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 vendor/lib64/libtinycompress_vendor.so
-vendor/lib/hw/audio.primary.sdm845.so|dbb19c37ef916da8e4394a117f4c03acd99baf5f
+vendor/lib/hw/audio.primary.sdm845.so|373ded9a00446909288f89a8d5139b4d32e3aeb6
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
