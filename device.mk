@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     init.nubia.device.rc \
     fstab.qcom
 
+# Firmware
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/firmware/NON-HLOS.bin:install/firmware-update/NON-HLOS.bin
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
